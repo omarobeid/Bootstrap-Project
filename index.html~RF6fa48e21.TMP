@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5111c829e0.js" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+
+        <a href="#" class="navbar-brand"><i class="fas fa-child text-warning fa-2x"></i></a>
+        <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+        
+        <div class="collapse navbar-collapse justify-content-between" id="nav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Skills</a></li>
+                <li class="nav-item">
+                    <a class="nav-link text-light text-uppercase font-weight-bold px-3 dropdown-toggle" data-toggle="dropdown" href="#">Projects</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Project 1</a>
+                        <a class="dropdown-item" href="#">Project 2</a>
+                        <a class="dropdown-item" href="#">Project 3</a>
+                        <a class="dropdown-item" href="#">Project 4</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Team</a></li>
+                <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Contact</a></li>
+            </ul>
+            <form class="form-inline ml-3">
+                <div class="input-group">
+                    <input type="text" class="from-control" placeholder="Search" />
+                    <div class="input-group-append">
+                        <button type="button" class="btn"><i class="fas fa-search text-muted"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>
+    <section>
+        <div class="container-fluid">
+            <div class="row bg-info justify-content-center align-item-center" style="height: 100vh">
+                <div class="col-sm-10 text-center">
+                    <h1 class="display-2 text-capitalize text-warning"><span class="text-white font-wight-bold">pure bootstrap</span><span> website</span></h1>
+                    <h2 class="font-weight-light font-italic text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    <a href="#" class="btn btn-warning">Press here</a>
+                    <a href="#" class="btn btn-danger">Press here</a>
+                </div> 
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
